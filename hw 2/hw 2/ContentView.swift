@@ -164,7 +164,7 @@ VStack{
              TextField("$",text:$n)
                 .multilineTextAlignment(.center)
                 .frame(width: 90, height: 35)
-                .background(Color.white.opacity(0.5))
+                .background(Color.gray.opacity(0.15))
                 .clipShape(RoundedRectangle(cornerRadius: 15))
         }
     //calculate the amount
@@ -172,7 +172,7 @@ VStack{
             Text("calculate Price")
             .multilineTextAlignment(.center)
             .frame(width: 190, height: 35)
-            .background(Color.white.opacity(0.5))
+            .background(Color.gray.opacity(0.25))
             .clipShape(RoundedRectangle(cornerRadius: 15))
             .onTapGesture {
                 tots = totalc(n1: Double(n1) , p1: 2.90, n2: Double(n2) , p2: 2.15, n3: Double(n3) , p3: 2.0, n4: Double(n4) , p4: 1.85, n5: Double(n5) , p5: 1.15)
